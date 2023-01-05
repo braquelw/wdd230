@@ -2,6 +2,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     text-align: center;
+    margin: auto;
 }
 .head {
     background-color:blanchedalmond;
@@ -23,9 +24,10 @@ h1 {
 }
 h2 {
     color: darkslategray;
-    margin: 20px;
+    margin: 15px;
     padding: 0;
     margin-bottom: 5px;
+    font-size: 22px;
 }
 article {
     padding: 2px;
@@ -33,12 +35,12 @@ article {
     margin: auto;
     justify-content: center;
     text-align: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 p {
     font-size: 16px;
     color: darkslategray;
-    margin: 7px;
+    margin: 5.5px;
 }
 article a {
     font-size: 16px;
