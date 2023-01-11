@@ -23,7 +23,7 @@ img {
 h1 {
     color: darkslategray;
     font-size: 28px;
-    font-family: Montserrat;
+    font-family: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
     color: darkslategray;
@@ -47,7 +47,6 @@ p {
 }
 article a {
     font-size: 15px;
-    font-family: Inconsolata;
     text-decoration: none;
     color: coral;
 }
