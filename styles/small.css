@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind&family=Inconsolata&family=Montserrat:wght@300&display=swap');
-
 body {
-    font-family: Hind, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Hind, Verdana, sans-serif;
     align-items: center;
     text-align: center;
     margin: auto;
@@ -23,7 +21,7 @@ img {
 .head h1 {
     color: darkslategray;
     font-size: 28px;
-    font-family: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Montserrat, Tahoma, sans-serif;
 }
 h2 {
     color: darkslategray;
