@@ -20,9 +20,9 @@ img {
     margin-right: 20px;
     box-shadow: 2px 2px lightsalmon;
 }
-h1 {
+.head h1 {
     color: darkslategray;
-    font-size: 24px;
+    font-size: 28px;
     font-family: Montserrat, Tahoma, Geneva, Verdana, sans-serif;
 }
 h2 {
