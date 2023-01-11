@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Inconsolata&family=Montserrat:wght@300&display=swap');
+
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Hind, Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     text-align: center;
     margin: auto;
@@ -21,6 +23,7 @@ img {
 h1 {
     color: darkslategray;
     font-size: 28px;
+    font-family: Montserrat;
 }
 h2 {
     color: darkslategray;
@@ -43,8 +46,8 @@ p {
     margin: 5.5px;
 }
 article a {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-family: Inconsolata;
     text-decoration: none;
     color: coral;
 }
