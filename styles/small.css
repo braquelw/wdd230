@@ -52,8 +52,9 @@ footer {
     background-color: blanchedalmond;
     color: coral;
     max-width: 500px;
-    align-items: center;
-    justify-content: center;
     padding: 15px;
     margin: auto;
+}
+footer div {
+    text-align: center;
 }
