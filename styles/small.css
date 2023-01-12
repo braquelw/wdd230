@@ -30,9 +30,9 @@ h2 {
     margin-bottom: 5px;
     font-size: 22px;
 }
-article {
+div {
     padding: 2px;
-    max-width: 250px;
+    max-width: 290px;
     margin: auto;
     justify-content: center;
     text-align: left;
@@ -43,7 +43,7 @@ p {
     color: darkslategray;
     margin: 5.5px;
 }
-article a {
+div a {
     font-size: 15px;
     text-decoration: none;
     color: coral;
