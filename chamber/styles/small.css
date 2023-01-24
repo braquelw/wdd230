@@ -39,7 +39,8 @@ h1 {
 h2 {
     grid-column: 2/4;
     grid-row: 2;
-    font-size: 17px;
+    font-family: Vollkorn, Trabuchet, Sans;
+    font-size: 18px;
     margin: 0;
     padding: 0;
     margin-top: -15px;
@@ -152,6 +153,6 @@ footer .logo {
     margin-bottom: 20px;
 }
 .address h2 {
-    font-family: Vollkorn, Trebuchet, sans;
+    font-family: Vollkorn, Trebuchet, Sans;
     font-size: 18px;
 }
