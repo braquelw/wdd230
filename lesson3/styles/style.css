@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 h1 {
-    font-family: Vollkorn;
+    font-family: Vollkorn, Georgia, serif;
     font-size: 30px;
     padding: 5px;
 }
@@ -82,7 +82,7 @@ main {
     background-color: black;
 }
 .headingfont {
-    font-family: 'Abril Fatface', Georgia, serif;
+    font-family: Vollkorn, Georgia, serif;
     font-weight: 100;
     font-size: 25px;
 }
