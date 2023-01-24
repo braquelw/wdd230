@@ -58,12 +58,18 @@ nav {
     display: inline;
     padding: 2px;
 }
+.socialMedia img:hover {
+    transform: scale(1.07);
+}
 nav button {
     margin: .2rem 2vw;
     background: transparent;
     border: none;
     font-size: 2rem;
     color: #555;
+}
+nav button:hover {
+    transform: scale(1.07);
 }
 nav ul {
     list-style-type: none;
@@ -78,11 +84,10 @@ nav ul li a {
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: #fff;
+    background-color: rgb(163, 109, 39, 0.3);
 }
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgb(163, 109, 39, 0.5);
 }
 nav ul {
     display: none;
@@ -152,7 +157,25 @@ footer .logo {
     margin: 10px auto;
     margin-bottom: 20px;
 }
+footer .map {
+    width: 10px;
+}
+footer .map:hover {
+    transform: scale(1.5);
+}
+footer a {
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    border-radius: 20px;
+}
+footer a:hover {
+    background-color: rgb(163, 109, 39, 0.3);
+}
 .address h2 {
     font-family: Vollkorn, Trebuchet, Sans;
     font-size: 18px;
+}
+hr {
+    margin: 10px 20px;
 }
