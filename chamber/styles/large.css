@@ -1,0 +1,88 @@
+/* 64rem is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    header {
+        display: grid;
+        grid-template-columns: 150px auto auto;
+    }
+    .logo {
+        width: 125px;
+        border: 2px solid black;
+    }
+    h1 {
+        font-size: 45px;
+        display: flex;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    nav {
+        text-align: right;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+        padding: .5rem 1rem;
+    }
+    .socialMedia {
+        padding-right: 30px;
+    }
+    .socialMedia img {
+        width: 35px;
+    }
+    #currentDate {
+        font-size: 16px;
+    }
+    #flex {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+    #flex .hero {
+        grid-column: 2;
+        grid-row: 1/3;
+        height: 320px;
+    }
+    #flex .news {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    #flex .spot3 {
+        display: flex;
+    }
+    #flex .spotlight {
+        grid-column: 3;
+        grid-row: 1/4;
+        gap: 5px;
+        height: 490px;
+        display: flex;
+        flex-direction: column;
+    }
+    #flex .spotlight article {
+        height: 160px;
+        width: 100%;
+    }
+    #flex .join {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #flex .event {
+        grid-column: 1;
+        grid-row: 1;
+        width: 100%;
+    }
+    #flex .weather {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+    }
+} /* End Large */

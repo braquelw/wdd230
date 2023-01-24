@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrum City Chamber of Commerce Home Page</title>
+    <meta name="author" content="Braquel Woodland"/>
+    <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights."/>
+    <link type="text/css" rel="stylesheet" href="styles/normalize.css">
+    <link type="text/css" rel="stylesheet" href="styles/small.css">
+    <link type="text/css" rel="stylesheet" href="styles/medium.css">
+    <link type="text/css" rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Header contains a logo, site title, navigation, and social media links -->
+        <img class="logo" src="images/elklogo.png" alt="Site Logo">
+        <h1>Hyrum City</h1>
+        <h2>Chamber of Commerce</h2>
+        <nav>
+            <a class="socialMedia" href="#"><img src="images/Facebook.png" alt="facebook logo"></a>
+            <a class="socialMedia" href="#"><img src="images/Instagram.png" alt="instagram logo"></a>
+            <a class="socialMedia" href="#"><img src="images/LinkedIn.png" alt="linked in logo"></a>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <!-- Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights -->
+                <li><a href="#">Discover</a></li>
+                <!-- Discover page provides historical information about the town and current demographics. Use imagery and include any relevant city events and information -->
+                <li><a href="#">Directory</a></li>
+                <!-- Directory page provides a list of local business organization in the area -->
+                <li><a href="#">Join</a></li>
+                <!-- Join page will contain information about the benefit of joining the chamber and a membership application form. The form will have specific content requirements to be assigned during the course. There aree four membership level options of non-profit, bronze, silver, and gold. The different levels have different perks including directory listings, publications, trainings, social media work, luncheons, sponsorships, advertising, etc -->
+                <li><a href="#">Contact</a></li>
+                <!-- Contact page contains essential and extended contact information for the chamber and its officers and board of directors. Should have a simple contact us form asking for name, phone, email, and a comment/message area. The page will have some other developmental specifications to provide opportunities for learning -->
+            </ul>
+        </nav>
+        <div id="currentDate">
+            <aside></aside>
+        </div>
+    </header>
+    <main>
+        <div id="flex">
+            <div class="hero">
+                Hero with site name and call to action
+            </div>
+            <div class="join">
+                Join
+            </div>
+            <div class="event">
+                Events
+            </div>
+            <div class="weather">
+                Weather
+            </div>
+            <div class="news">
+                News Releases
+            </div>
+            <div class="spotlight">
+                <article class="spot1">
+                    Spotlight 1
+                </article>
+                <article class="spot2">
+                    Spotlight 2
+                </article>
+                <article class="spot3">
+                    Spotlight 3
+                </article>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="gridFooter">
+            <img class="logo" src="images/elklogo.png" alt="Site Logo">
+            <div class="address">
+                <h2>Hyrum City Chamber of Commerce</h2>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+            </div>
+            <div class="contact">
+                <p>info@hyrumcitycc.org</p>
+                <p>+(435) 245-0000</p>
+                <p>Location Map</p>
+            </div>
+        </div>
+        <hr>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Hyrum City Chamber 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
+        </div>
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
+        </div>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
