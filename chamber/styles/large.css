@@ -83,13 +83,24 @@
         width: 200px;
     }
     #flex .join {
+        padding: 10px;
         grid-column: 1;
         grid-row: 3;
+        font-size: 14px;
+    }
+    #flex .join button {
+        font-size: 18px;
     }
     #flex .event {
         grid-column: 1;
         grid-row: 1;
         width: 100%;
+    }
+    .event #largeHR {
+        display: block;
+    }
+    .event #smallHR {
+        display: none;
     }
     #flex .weather {
         grid-column: 1;

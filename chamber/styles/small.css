@@ -168,6 +168,9 @@ main{
 .event img {
     width: 100%;
 }
+.event #largeHR {
+    display: none;
+}
 .event .textbox {
     position: absolute;
     display: table;
@@ -220,7 +223,6 @@ main{
 }
 .spotlight hr {
     width: 60%;
-    align: center;
 }
 .spotlight text {
     font-size: 15px;
@@ -228,15 +230,15 @@ main{
 .spotlight address {
     font-style: normal;
 }
+.spot3 {
+    display: none;
+}
 .spotlight a {
     text-decoration: none;
     color: black;
 }
 .spotlight a:hover {
     color:#A36D27;
-}
-.spot3 {
-    display: none;
 }
 footer {
     background-color: #E2D4AD;

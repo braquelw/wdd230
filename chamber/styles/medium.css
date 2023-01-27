@@ -73,7 +73,7 @@
     }
     #flex .join {
         display: block;
-        order: 4;
+        order: 6;
         width: 100%;
         background-color: #54350b;
         color: white;
@@ -91,11 +91,11 @@
         background-color: rgb(226, 212, 173, .9);
     }
     #flex .event {
-        order: 5;
+        order: 4;
         width: 60%;
     }
     #flex .weather {
-        order: 6;
+        order: 5;
         width: 38.5%;
         margin-left: 1.5%;
     }
