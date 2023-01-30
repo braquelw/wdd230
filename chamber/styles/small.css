@@ -122,6 +122,14 @@ main{
     margin: 20px;
     text-align: center;
 }
+#banner {
+    display: block;
+    background-color: #A36D27;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
 #flex div {
     margin: 5px auto;
 }
