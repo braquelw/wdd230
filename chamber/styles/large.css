@@ -64,7 +64,13 @@
         grid-column: 2;
         grid-row: 3;
     }
+    #flex .news h3 {
+        font-size: 24px;
+    }
     #flex .spot3 {
+        display: block;
+    }
+    #flex .spot4 {
         display: block;
     }
     #flex .spotlight {

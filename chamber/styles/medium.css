@@ -74,6 +74,7 @@
     #flex .join {
         display: block;
         order: 6;
+        padding: 10px;
         width: 100%;
         background-color: #54350b;
         color: white;

@@ -207,8 +207,8 @@ main{
     height: 143px;
 }
 .news {
-    background: #54350b;
-    color: white;
+    color: black;
+    border: 5px solid #A36D27;
     padding: 15px;
     font-size: 14px;
 }
@@ -231,6 +231,9 @@ main{
     font-style: normal;
 }
 .spot3 {
+    display: none;
+}
+.spot4 {
     display: none;
 }
 .spotlight a {
