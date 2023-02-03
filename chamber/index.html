@@ -46,8 +46,13 @@
         <span id='banner'></span>
         <div id="flex">
             <div class="hero">
-                <img id="smallhero" src="images/HyrumHero.png" alt="Hyrum State Park">
-                <img id="largehero" src="images/HyrumHeroSquare.png" alt="Hyrum State Park">
+                <picture>
+                    <source media="(max-width: 300px)" srcset="images/test300.png">
+                    <source meda="(max-width: 650px)" srcset="images/test650.png">
+                    <img src="images/test900.png" alt="hero image">
+                </picture>
+                <!-- <img id="smallhero" src="images/HyrumHero.png" alt="Hyrum State Park">
+                <img id="largehero" src="images/HyrumHeroSquare.png" alt="Hyrum State Park"> -->
                 <h3>Welcome to Hyrum City</h3>
                 <button id="join" onclick="window.location.href='#';">Join the Chamber</button>
             </div>
@@ -56,18 +61,26 @@
                 <p>Discover how to join the Hyrum City Chamber of Commerce and how it will benefit you!</p>
             </div>
             <div class="event">
-                <img id="smallHR" src="images/HardwareHero.png" alt="Hardware Sleigh Ride">
-                <img id="largeHR" src="images/HardwareHeroSquare.png" alt="Hardware Sleigh Ride">
+                <img id="elk" src="images/elk.png" alt="Hardware Elk">
+                <img id="elkwide" src="images/elkwide.png" alt="Hardware Elk">
                 <div class="textbox">
-                    <div class="text">
-                        <h3>Hardware Ranch<a href="https://goo.gl/maps/h95f8V2qeGcdyeaY9"><img class="map" src="images/placeholder.png"></a></h3>
-                        <p>Visit Fri through Sun between 10am and 4:30pm to take a sleigh ride and see the Elk up close!</p>
-                        <a class="info" href="https://wildlife.utah.gov/hardware-visit.html">more info...</a>
-                    </div>
+                    <h3>Hardware Ranch<a href="https://goo.gl/maps/h95f8V2qeGcdyeaY9"><img class="map" src="images/placeholder.png"></a></h3>
+                    <p>Visit Fri through Sun between 10am and 4:30pm to take a sleigh ride and see the Elk up close!</p>
+                    <a class="info" href="https://wildlife.utah.gov/hardware-visit.html">more info...</a>
                 </div>
             </div>
             <div class="weather">
-                Weather
+                <div class="weatherFlex">
+                    <h3>Weather</h3>
+                    <div class="weatherDisplay">
+                        <img src="images/weather.png" alt="weather icon">
+                        <temperature class="temperature">56°F</temperature>
+                    </div>
+                    <weather class="weath">Rain Showers</weather>
+                    <hr>
+                    <p>Wind Speed: 2.5 mph</p>
+                    <p>Wind Chill: N/A</p>
+                </div>
             </div>
             <div class="news">
                 <h3>News Release</h3>
@@ -136,5 +149,6 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

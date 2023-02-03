@@ -93,12 +93,25 @@
     }
     #flex .event {
         order: 4;
-        width: 60%;
+        width: 65%;
     }
     #flex .weather {
         order: 5;
-        width: 38.5%;
+        width: 33.5%;
         margin-left: 1.5%;
+    }
+    .weather .weatherDisplay .temperature {
+        font-size: 30px;
+    }
+    .weather .weath {
+        font-size: 18px;
+    }
+    .weather p {
+        font-size: 14px;
+    }
+    .weather hr {
+        width: 75%;
+        margin: 5px auto;
     }
     .gridFooter {
         display: grid;

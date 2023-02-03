@@ -131,7 +131,7 @@ main{
     color: white;
 }
 #flex div {
-    margin: 5px auto;
+    margin: 20px auto;
 }
 #flex h3 {
     font-family: Vollkorn, Georgia, serif;
@@ -171,27 +171,23 @@ main{
     display: none;
 }
 .event {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #54350b;
 }
-.event img {
-    width: 100%;
+.event #elk {
+    max-height: 250px;
+    width: fit-content;
+    padding: 5px;
+    margin: 5px;
 }
-.event #largeHR {
+.event #elkwide {
     display: none;
 }
 .event .textbox {
-    position: absolute;
-    display: table;
-    top: 45%;
-    background-color: rgb(255, 255, 255, 0.7);
     padding: 10px;
-    overflow: auto;
     align-items: center;
-    transform:translate(0, -50%);
-}
-.event .textbox .text {
-    display: table-cell;
-    vertical-align: middle;
 }
 .event .map {
     width: 15px;
@@ -208,25 +204,54 @@ main{
     padding: 5px;
     margin: 0;
     font-size: 14px;
-    line-height: 15px;
 }
 .weather {
     background-color: #E2D4AD;
-    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather .weatherFlex {
+    margin: 0;
+    padding: 5px;
+}
+.weather .weatherDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather .weatherDisplay .temperature {
+    font-size: 40px;
+    font-family: Vollkorn, Georgia, serif;
+}
+.weather img {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+}
+.weather .weath {
+    font-size: 22px;
+}
+.weather p {
+    margin: 0;
+    padding: 0;
+}
+.weather hr {
+    width: 75%;
 }
 .news {
     color: black;
-    border: 5px solid #A36D27;
+    border: 3px solid #A36D27;
     padding: 15px;
     font-size: 14px;
 }
 #flex .spotlight article {
     padding: 15px;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 .spotlight img {
-    width: 250px;
-    padding: 10px;
+    max-width: 220px;
+    padding: 25px;
     padding-bottom: 0;
 }
 .spotlight hr {
