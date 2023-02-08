@@ -18,6 +18,6 @@ button.addEventListener('click', () => {
 
     listBtn.addEventListener('click', () => {
     list.removeChild(listItem);
-});
+    });
 input.focus();
 });
