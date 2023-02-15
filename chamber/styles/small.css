@@ -311,3 +311,30 @@ footer a:hover {
 footer hr {
     margin: 10px 20px;
 }
+
+
+/* Discover Page */
+.images img {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 300px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+.images img[data-src] {
+    filter: blur(0.2em);
+    min-width: 50px;
+    min-height: 50px;
+}
+.images figcaption {
+    font-size: 12px;
+    margin-top: -5px;
+}
+.text p {
+    text-align: left;
+}
+.label {
+    font-size: 14px;
+}
