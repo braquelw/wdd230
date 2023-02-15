@@ -221,16 +221,16 @@ main{
     align-items: center;
 }
 .weather .weatherDisplay .temperature {
-    font-size: 40px;
+    font-size: 30px;
     font-family: Vollkorn, Georgia, serif;
 }
 .weather img {
-    width: 35%;
+    width: 30%;
     margin: 0;
     padding: 0;
 }
 .weather .weath {
-    font-size: 22px;
+    font-size: 20px;
 }
 .weather p {
     margin: 0;
