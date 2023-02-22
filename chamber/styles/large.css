@@ -133,4 +133,16 @@
         font-size: 24px;
     }
 
+    /* Join Page */
+    main .join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .join table {
+        max-height: 500px;
+    }
+
 } /* End Large */
