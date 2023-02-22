@@ -362,7 +362,7 @@ form label.top {
     color: #54350b;
     font-size: .8rem;
 }
-form label.top input, form label.top select {
+form label.top input, form label.top select, form label.top textarea {
     display: block;
     font-size: 1rem;
     border: solid 1px #A36D27;
@@ -375,7 +375,7 @@ form label.top input, form label.top select {
 }
 form input.submitBtn {
     border: none;
-    background-color: #54350b;
+    background-color: #A36D27;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -384,13 +384,23 @@ form input.submitBtn {
     max-width: 20rem;
 }
 form input.submitBtn:hover {
-    background-color: rgb(84, 53, 11, .75);
+    background-color: #54350b;
 }
 form label.top input:required {
     border-left: #54350b solid 4px;
 }
 form label.top input:required:valid {
     border-left: #A36D27 solid 1px;
+}
+form textarea {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    text-align: start;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 }
 #application {
     font-size: 24px;

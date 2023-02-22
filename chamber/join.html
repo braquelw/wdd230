@@ -13,6 +13,10 @@
     <link type="text/css" rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300;1,400&family=Vollkorn+SC&display=swap" rel="stylesheet">
     <link rel="icon" href="faviconlogo.ico">
+    <script>
+        const dateTime = document.getElementById('submitDate')
+        dateTime.value = `${new Date()}`
+    </script>
 </head>
 <body>
     <header>
@@ -49,8 +53,6 @@
                 </fieldset>
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label class="top">Business Name <input type="text" name="business"></label>
-                    <label class="top">Business Description <input type="textarea" name="description"></label>
                     <label class="top">Membership Level<select name="level">
                         <option value="">Please Select</option>
                         <option value="nonprofit">Non-Profit</option>
@@ -58,8 +60,12 @@
                         <option value="silver">Silver</option>
                         <option value="gold">Gold</option>
                     </select></label>
+                    <label class="top">Business Name <input type="text" name="business"></label>
+                    <label class="top">Business Description <textarea name="description" rows="4"></textarea></label>
                 </fieldset>
-                <input type="hidden" name="date" value="currentDate">
+                <label id="submittedDate">
+                    <input type="hidden" name="date" id="submitDate">
+                </label>
                 <input type="submit" value="Join the Chamber" class="submitBtn">
             </form>
             <table>
