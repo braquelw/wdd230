@@ -1,0 +1,31 @@
+* {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+}
+body {
+    background-color: blanchedalmond;
+}
+header {
+    background-color: rgb(223, 65, 7);
+    color: white;
+    padding: 10px;
+}
+.cards section {
+    border: 1px solid coral;
+    background-color: white;
+    max-width: 375px;
+    margin: 10px auto;
+}
+.cards h2 {
+    color: rgb(223, 65, 7);
+    padding: 15px 7px 0;
+}
+.cards img {
+    padding: 10px;
+}
+footer {
+    background-color: rgb(223, 65, 7);
+    color: white;
+    padding: 20px;
+}
