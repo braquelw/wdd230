@@ -12,7 +12,7 @@ getProphetData();
 
 // display prophets
 const displayProphets = (prophets) => {
-    const cards = document.querySelector('div.cards');
+    const cards = document.querySelector('section.cards');
 
     prophets.forEach((prophet) => {
         let card = document.createElement('section');
