@@ -1,3 +1,5 @@
+const url = "";
+
 // fetch data from json
 async function getBusinessData() {
     const response = await fetch(url);
