@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hyrum City Chamber of Commerce Thank You Page</title>
+    <title>Hyrum City Chamber of Commerce Directory Page</title>
     <meta name="author" content="Braquel Woodland"/>
     <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights."/>
     <link type="text/css" rel="stylesheet" href="styles/normalize.css">
@@ -27,7 +27,7 @@
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a class="active" href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -36,39 +36,41 @@
             <aside></aside>
         </div>
     </header>
-<body>
-<main>
-    <h2 id="application">Hyrum City Chamber Application</h2>
-        <p>Thanks for applying to join the Hyrum City Chamber of Commerce. We will get back to you within a week with a response.</p>
-        <button class="homeBtn" onclick="window.location.href='index.html';">Return to Homepage</button>
-</main>
-<footer>
-    <div class="gridFooter">
-        <img class="logo" src="images/elklogo.png" alt="Site Logo">
-        <div class="address">
-            <h2>Hyrum City Chamber of Commerce</h2>
-            <p>000 South Center</p>
-            <p>Hyrum, UT 84319</p>
+    <main>
+        <header>
+            <h2 class="directory">Business Directory</h2>
+        </header>
+        <main>
+            <section class="cards"></section>
+        </main>
+    </main>
+    <footer>
+        <div class="gridFooter">
+            <img class="logo" src="images/elklogo.png" alt="Site Logo">
+            <div class="address">
+                <h2>Hyrum City Chamber of Commerce</h2>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+            </div>
+            <div class="contact">
+                <p>info@hyrumcitycc.org</p>
+                <p>(435) 245-0000</p>
+                <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png"> Location Map</a>
+            </div>
         </div>
-        <div class="contact">
-            <p>info@hyrumcitycc.org</p>
-            <p>(435) 245-0000</p>
-            <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png"> Location Map</a>
+        <hr>
+        <div class="endFooter">
+            <div>
+                <span id="copyright"></span> Hyrum City Chamber 
+            </div>
+            <h3>Braquel Woodland</h3>
+            <p>WDD 230 Project</p>
         </div>
-    </div>
-    <hr>
-    <div class="endFooter">
-        <div>
-            <span id="copyright"></span> Hyrum City Chamber 
+        <div id="lastUpdated">
+            Last Updated: <span id='lastModified'></span>
         </div>
-        <h3>Braquel Woodland</h3>
-        <p>WDD 230 Project</p>
-    </div>
-    <div id="lastUpdated">
-        Last Updated: <span id='lastModified'></span>
-    </div>
-</footer>
-<script src="scripts/script.js"></script>
-<script src="scripts/windchill.js"></script>
+    </footer>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/gridlist.js"></script>
 </body>
 </html>

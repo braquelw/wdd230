@@ -1,0 +1,76 @@
+{
+    "businessDirectory": [
+        {
+            "name": "Blacksmith Fork Assisted Living",
+            "address": "680 E Main Street",
+            "phone": "(435) 994-3000",
+            "website": "https://blacksmithforkassistedliving.com/",
+            "imageurl": "https://blacksmithforkassistedliving.com/wp-content/uploads/2022/10/Blacksmith-Fork-Assisted-Living-primary-01.jpg",
+            "level": "gold"
+        },
+        {
+            "name": "Hyrum Self Storage",
+            "address": "206 S 1720 E",
+            "phone": "(435) 535-1527",
+            "website": "https://www.hyrumselfstorage.com/",
+            "imageurl": "https://www.chamberofcommerce.com/show_image.php?zc=2&w=250&src=https://d3pdiyb8gd93c9.cloudfront.net/images/2011454587/3112571.jpg",
+            "level": "bronze"
+        },
+        {
+            "name": "Gunnell Family Dentistry",
+            "address": "26 W Main St",
+            "phone": "(435) 294-3505",
+            "website": "https://www.gunnellfamilydentistry.com/",
+            "imageurl": "https://www.gunnellfamilydentistry.com/wp-content/uploads/2021/07/Gunnell-Family-Desntistry-Social-Branding-GMB-Profile-Photo.jpg",
+            "level": "bronze"
+        },
+        {
+            "name": "Northern Glass Pros",
+            "address": "10 E Main St",
+            "phone": "(435) 535-6162",
+            "website": "https://www.northernglasspros.com/",
+            "imageurl": "https://uploads-ssl.webflow.com/6266bce8be4e6324c28a54d6/6266c8a266bcd6c7dbfbefe9_glass_pros.PNG",
+            "level": "silver"
+        },
+        {
+            "name": "America First Credit Union",
+            "address": "780 E Main St",
+            "phone": "(800) 999-3961",
+            "website": "https://www.americafirst.com/",
+            "imageurl": "https://upload.wikimedia.org/wikipedia/en/d/d9/America1st.png",
+            "level": "gold"
+        },
+        {
+            "name": "Guymon Orthodontics",
+            "address": "26 W Main, Ste 4D",
+            "phone": "(435) 752-5991",
+            "website": "https://guymonortho.com/",
+            "imageurl": "https://guymonortho.com/wp-content/themes/easel-v5/img/guymon-logo.svg",
+            "level": "gold"
+        },
+        {
+            "name": "Domino's Pizza",
+            "address": "10 W Main St",
+            "phone": "(435) 245-7777",
+            "website": "https://pizza.dominos.com/utah/hyrum/",
+            "imageurl": "https://www.pngkey.com/png/detail/422-4229573_dominos-pizza-readies-new-logo-png-dominos-pizza.png",
+            "level": "silver"
+        },
+        {
+            "name": "McDonald's",
+            "address": "25 S 800 E",
+            "phone": "(435) 245-0635",
+            "website": "https://www.mcdonalds.com/us/en-us/location/ut/hyrum/25-s-800-east/14202.html?cid=RF:YXT:RoN::Clicks",
+            "imageurl": "https://www.uticalibrary.com/site-assets/images/mcdonalds-logo.png/@@images/image.png",
+            "level": "gold"
+        },
+        {
+            "name": "The Family Place Utah",
+            "address": "10 N 600 E",
+            "phone": "(435) 752-8880",
+            "website": "https://thefamilyplaceutah.org/",
+            "imageurl": "https://thefamilyplaceutah.org/wp-content/uploads/2022/01/Logo-Horizontal-Grey-100-1280x264.jpg",
+            "level": "np"
+        }
+    ]
+}

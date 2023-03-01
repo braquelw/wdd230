@@ -89,7 +89,7 @@
         font-size: 20px;
     }
     #flex .join button:hover {
-        background-color: rgb(226, 212, 173, .9);
+        background-color: rgb(226, 212, 173, .75);
     }
     #flex .event {
         order: 4;
