@@ -151,7 +151,7 @@
 
 
     /* Discover Page */
-    main {
+    #discovermain {
         margin: 20px 50px;
     }
     .discoverbody {
@@ -171,6 +171,18 @@
     .images img:hover {
         box-shadow: 0 0 10px #54350b;
         opacity: .8;
+    }
+
+    /* Directory Page */
+    #directory h2 {
+        font-size: 30px;
+    }
+    .list section {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        margin: 0;
+        padding: 5px;
+        width: 100%;
     }
 
 } /* End Medium */
