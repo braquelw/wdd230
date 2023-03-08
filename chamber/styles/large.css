@@ -106,6 +106,7 @@
         grid-row: 1;
         width: 100%;
         flex-direction: column;
+        border: none;
     }
     #flex .event #elk {
         display: none;
