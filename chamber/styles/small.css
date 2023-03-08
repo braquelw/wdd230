@@ -395,7 +395,6 @@ form label.top input:required:valid {
 }
 form textarea {
     writing-mode: horizontal-tb !important;
-    text-rendering: auto;
     letter-spacing: normal;
     word-spacing: normal;
     display: inline-block;
