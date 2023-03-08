@@ -227,7 +227,7 @@ main{
 }
 .weather img {
     width: 50px;
-    margin: -25px;
+    margin: -5px -35px;
     padding: 0;
 }
 .weather .weath {
@@ -472,6 +472,7 @@ tbody tr:nth-child(even) {
     display: block;
 }
 #directory h2 {
+    margin-top: 20px;
     color:#54350b;
     font-size: 26px;
 }

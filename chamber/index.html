@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hyrum City Chamber of Commerce Home Page</title>
-    <meta name="author" content="Braquel Woodland"/>
-    <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights."/>
+    <meta name="author" content="Braquel Woodland">
+    <meta name="description" content="Home page will contain some attention grabbing information along with community information, weather, calls to action, and business spotlights.">
     <link type="text/css" rel="stylesheet" href="styles/normalize.css">
     <link type="text/css" rel="stylesheet" href="styles/small.css">
     <link type="text/css" rel="stylesheet" href="styles/medium.css">
@@ -43,17 +43,17 @@
                 <img id="smallhero" src="images/HyrumHero.png" alt="Hyrum State Park">
                 <img id="largehero" src="images/HyrumHeroSquare.png" alt="Hyrum State Park">
                 <h3>Welcome to Hyrum City</h3>
-                <button id="join" onclick="window.location.href='join.html';">Join the Chamber</button>
+                <button class="joinbtn" onclick="window.location.href='join.html';">Join the Chamber</button>
             </div>
             <div class="join">
-                <button id="join" onclick="window.location.href='join.html';">Join Us!</button>
+                <button class="joinbtn" onclick="window.location.href='join.html';">Join Us!</button>
                 <p>Discover how to join the Hyrum City Chamber of Commerce and how it will benefit you!</p>
             </div>
             <div class="event">
                 <img id="elk" src="images/elk.png" alt="Hardware Elk">
                 <img id="elkwide" src="images/elkwide.png" alt="Hardware Elk">
                 <div class="textbox">
-                    <h3>Hardware Ranch<a href="https://goo.gl/maps/h95f8V2qeGcdyeaY9"><img class="map" src="images/MapPin.png"></a></h3>
+                    <h3>Hardware Ranch<a href="https://goo.gl/maps/h95f8V2qeGcdyeaY9"><img class="map" src="images/MapPin.png" alt="map pin"></a></h3>
                     <p>Visit Fri through Sun between 10am and 4:30pm to take a sleigh ride and see the Elk up close!</p>
                     <a class="info" href="https://wildlife.utah.gov/hardware-visit.html">more info...</a>
                 </div>
@@ -63,9 +63,9 @@
                     <h3>Weather</h3>
                     <div class="weatherDisplay">
                         <figure>
-                            <img src="" alt="" id="weather-icon"/>
+                            <img src="" alt="" id="weather-icon">
                         </figure>
-                        <temperature id="currentTemp"><span id="temp"></span>°F</temperature>
+                        <div id="currentTemp"><span id="temp"></span>°F</div>
                     </div>
                     <weather class="weath"></weather>
                     <hr>
@@ -81,34 +81,34 @@
                 <article class="spot1">
                     <img src="images/amfirst.png" alt="America First Credit Union">
                     <hr>
-                    <text>
+                    <div>
                         <address>780 E Main St</address>
                         <phone>(800) 999-3961 | </phone><website><a href="https://www.americafirst.com/">Website</a></website>
-                    </text>
+                    </div>
                 </article>
                 <article class="spot2">
                     <img src="images/guymon.png" alt="Guymon Orthodontics">
                     <hr>
-                    <text>
+                    <div>
                         <address>26 W Main St, Ste 4D</address>
                         <phone>(435) 752-5991 | </phone><website><a href="https://guymonortho.com/">Website</a></website>
-                    </text>
+                    </div>
                 </article>
                 <article class="spot3">
                     <img src="images/Dominos.png" alt="Dominos Pizza">
                     <hr>
-                    <text>
+                    <div>
                         <address>10 W Main St</address>
                         <phone>(435) 245-7777 | </phone><website><a href="https://pizza.dominos.com/utah/hyrum/">Website</a></website>
-                    </text>
+                    </div>
                 </article>
                 <article class="spot4">
                     <img src="images/glasspros.png" alt="Northern Glass Pros">
                     <hr>
-                    <text>
+                    <div>
                         <address>10 E Main St</address>
                         <phone>(435) 535-6162 | </phone><website><a href="https://www.northernglasspros.com/">Website</a></website>
-                    </text>
+                    </div>
                 </article>
             </div>
         </div>
@@ -124,7 +124,7 @@
             <div class="contact">
                 <p>info@hyrumcitycc.org</p>
                 <p>(435) 245-0000</p>
-                <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png"> Location Map</a>
+                <a href="https://goo.gl/maps/WR9e53YGjRWT465g6"><img class="map" src="images/MapPin.png" alt="map pin"> Location Map</a>
             </div>
         </div>
         <hr>
