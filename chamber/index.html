@@ -62,12 +62,14 @@
                 <div class="weatherFlex">
                     <h3>Weather</h3>
                     <div class="weatherDisplay">
-                        <img src="images/weather.png" alt="weather icon">
-                        <temperature class="temperature"><span id="temp">36</span>°F</temperature>
+                        <figure>
+                            <img src="" alt="" id="weather-icon"/>
+                        </figure>
+                        <temperature id="currentTemp"><span id="temp"></span>°F</temperature>
                     </div>
-                    <weather class="weath">Partly Cloudy</weather>
+                    <weather class="weath"></weather>
                     <hr>
-                    <p>Wind Speed: <span id="wspeed">3.5</span> mph</p>
+                    <p>Wind Speed: <span id="wspeed"></span> mph</p>
                     <p>Wind Chill: <span id="wchill"></span></p>
                 </div>
             </div>
@@ -138,6 +140,7 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/weatherapi.js"></script>
     <script src="scripts/windchill.js"></script>
 </body>
 </html>
