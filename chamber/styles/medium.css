@@ -64,13 +64,6 @@
         flex-direction: row;
         align-items: center;
     }
-    .spotlight hr {
-        width: 70%;
-        margin: 5px auto;
-    }
-    #flex .spotlight article {
-        width: 50%;
-    }
     #flex .join {
         display: block;
         order: 6;
@@ -190,8 +183,11 @@
     .contact-info {
         margin: 20px 50px;
     }
-    h3 {
+    .contact-h3 {
         font-size: 25px;
+    }
+    .contact-form {
+        margin: 30px;
     }
 
 } /* End Medium */

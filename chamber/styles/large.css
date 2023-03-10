@@ -71,12 +71,6 @@
     #flex .news h3 {
         font-size: 24px;
     }
-    #flex .spot3 {
-        display: block;
-    }
-    #flex .spot4 {
-        display: block;
-    }
     #flex .spotlight {
         grid-column: 3;
         grid-row: 1/4;
@@ -85,12 +79,6 @@
         flex-direction: column;
         align-items: center;
         margin: auto;
-    }
-    #flex .spotlight article {
-        width: 100%;
-    }
-    #flex .spotlight img {
-        width: 200px;
     }
     #flex .join {
         padding: 10px;

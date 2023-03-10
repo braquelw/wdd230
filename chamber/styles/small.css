@@ -250,33 +250,6 @@ main{
     padding: 15px;
     margin: 10px auto;
 }
-.spotlight img {
-    max-width: 220px;
-    padding: 25px;
-    padding-bottom: 0;
-}
-.spotlight hr {
-    width: 75%;
-}
-.spotlight text {
-    font-size: 15px;
-}
-.spotlight address {
-    font-style: normal;
-}
-.spot3 {
-    display: none;
-}
-.spot4 {
-    display: none;
-}
-.spotlight a {
-    text-decoration: none;
-    color: black;
-}
-.spotlight a:hover {
-    color:#A36D27;
-}
 footer {
     background-color: #E2D4AD;
     margin: 0;
@@ -553,7 +526,7 @@ tbody tr:nth-child(even) {
 
 /* ------------------ CONTACT PAGE ----------------- */
 
-h3 {
+.contact-h3 {
     font-family: Vollkorn, Georgia, serif;
     color:#54350b;
     font-size: 20px;
@@ -580,4 +553,7 @@ iframe {
     max-width: 500px;
     width: 90%;
     margin: 30px auto;
+}
+.contact-form {
+    margin: 15px;
 }
