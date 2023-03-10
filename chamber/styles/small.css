@@ -333,6 +333,11 @@ footer hr {
     font-size: 12px;
     margin-top: -5px;
 }
+.text h3 {
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 20px;
+    color:#54350b;
+}
 .text p {
     text-align: left;
 }
@@ -543,4 +548,36 @@ tbody tr:nth-child(even) {
     min-width: 275px;
     max-width: 325px;
     height: auto;
+}
+
+
+/* ------------------ CONTACT PAGE ----------------- */
+
+h3 {
+    font-family: Vollkorn, Georgia, serif;
+    color:#54350b;
+    font-size: 20px;
+}
+.contact-info {
+    text-align: left;
+    margin: 20px 20px;
+    padding: 0;
+}
+.contact-info h4 {
+    margin: 10px auto;
+    font-family: Vollkorn, Georgia, serif;
+    font-size: 17px;
+}
+.contact-info p {
+    margin: 0;
+    padding: 1px;
+}
+.contact-box hr {
+    border-style: solid;
+    color:#E2D4AD;
+}
+iframe {
+    max-width: 500px;
+    width: 90%;
+    margin: 30px auto;
 }

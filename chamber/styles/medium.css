@@ -185,4 +185,13 @@
         width: 100%;
     }
 
+
+    /* Contact Page */
+    .contact-info {
+        margin: 20px 50px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+
 } /* End Medium */

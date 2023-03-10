@@ -25,11 +25,11 @@
             <a class="socialMedia" href="https://linkedin.com"><img src="images/LinkedIn.png" alt="linked in logo"></a>
             <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
             <ul id="primaryNav">
-                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <div id="currentDate">
@@ -37,52 +37,55 @@
         </div>
     </header>
     <main>
-        <span id='banner'></span>
-        <div id="flex">
-            <div class="hero">
-                <img id="smallhero" src="images/HyrumHero.png" alt="Hyrum State Park">
-                <img id="largehero" src="images/HyrumHeroSquare.png" alt="Hyrum State Park">
-                <h3>Welcome to Hyrum City</h3>
-                <button class="joinbtn" onclick="window.location.href='join.html';">Join the Chamber</button>
+       <h3>Contact the Chamber</h3>
+       <div class="contact-box">
+            <hr class="display">
+            <div class="contact-info" id="box1">
+                <h4>Hyrum City Chamber of Commerce</h4>
+                <p>000 South Center</p>
+                <p>Hyrum, UT 84319</p>
+                <br>
+                <p>Visit Us:</p>
+                <p>Monday - Friday: 9:00am to 3:30pm</p>
+                <br>
+                <p>Phone:</p>
+                <p>(435) 245-0000</p>
+                <br>
+                <p>Email:</p>
+                <p>info@hyrumcitycc.org</p>
             </div>
-            <div class="join">
-                <button class="joinbtn" onclick="window.location.href='join.html';">Join Us!</button>
-                <p>Discover how to join the Hyrum City Chamber of Commerce and how it will benefit you!</p>
+            <hr class="non-display">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95429.64514432549!2d-111.91080656424114!3d41.6303181431006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87537f8ccf358bc7%3A0xf962976d6f1863f4!2sHyrum%2C%20UT!5e0!3m2!1sen!2sus!4v1678481038618!5m2!1sen!2sus" width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr class="non-display">
+            <div class="contact-info" id="box2">
+                <h4>Points of Contact</h4>
+                <p>Membership Info:</p>
+                <p>join@hyrumcitycc.org</p>
+                <br>
+                <p>Sponsorship Opportunities:</p>
+                <p>sponsor@hyrumcitycc.org</p>
+                <br>
+                <p>Media Inquiries:</p>
+                <p>media@hyrumcitycc.org</p>
             </div>
-            <div class="event">
-                <img id="elk" src="images/elk.png" alt="Hardware Elk">
-                <img id="elkwide" src="images/elkwide.png" alt="Hardware Elk">
-                <div class="textbox">
-                    <h3>Hardware Ranch<a href="https://goo.gl/maps/h95f8V2qeGcdyeaY9"><img class="map" src="images/MapPin.png" alt="map pin"></a></h3>
-                    <p>Visit Fri through Sun between 10am and 4:30pm to take a sleigh ride and see the Elk up close!</p>
-                    <a class="info" href="https://wildlife.utah.gov/hardware-visit.html">more info...</a>
-                </div>
-            </div>
-            <div class="weather">
-                <div class="weatherFlex">
-                    <h3>Weather</h3>
-                    <div class="weatherDisplay">
-                        <figure>
-                            <img src="" alt="" id="weather-icon">
-                        </figure>
-                        <div id="currentTemp"><span id="temp"></span>°F</div>
-                    </div>
-                    <div class="weath"></div>
-                    <hr>
-                    <p>Wind Speed: <span id="wspeed"></span> mph</p>
-                    <p>Wind Chill: <span id="wchill"></span></p>
-                </div>
-            </div>
-            <div class="news">
-                <h3>News Release</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam vel quaerat laboriosam aspernatur sapiente qui architecto laborum nihil perspiciatis aut natus voluptate cumque saepe, iusto voluptatum ipsum minus soluta dolorum hic aliquid! Placeat tempora facilis aliquid, ab vero similique aperiam maxime ullam assumenda optio.</p>
-            </div>
-            <div class="spotlight">
-                <article class="spotlights">
-                    <section class="cards"></section>
-                </article>
-            </div>
+            <hr class="display">
         </div>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Name* <input type="text" name="name" required></label>
+                <label class="top">Organization <input type="text" name="org"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Contact Preference<select name="level">
+                    <option value="">Please Select</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                </select></label>
+                <label class="top">Comments/Questions <textarea name="comments" rows="4"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Contact the Chamber" class="submitBtn">
+        </form>
     </main>
     <footer>
         <div class="gridFooter">
@@ -111,8 +114,5 @@
         </div>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/weatherapi.js"></script>
-    <script src="scripts/windchill.js"></script>
-    <script src="scripts/gridlist.js"></script>
 </body>
 </html>

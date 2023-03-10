@@ -147,4 +147,30 @@
         max-height: 500px;
     }
 
+
+    /* Contact Page */
+    .contact-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contact-box #box1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    .contact-box #box2 {
+        grid-column: 2;
+        grid-row: 2;
+        text-align: right;
+    }
+    .contact-box .display {
+        grid-column: 1/3;
+    }
+    .contact-box .non-display {
+        display: none;
+    }
+    .contact-box iframe {
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+
 } /* End Large */
