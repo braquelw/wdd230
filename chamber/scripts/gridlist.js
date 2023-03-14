@@ -31,7 +31,6 @@ getBusinessData()
 // display businesses
 const displayBusinesses = (businessDirectory) => {
     const cards = document.querySelector('section.cards');
-    const hiCard = document.querySelector('section.hiCard');
 
     businessDirectory.forEach((business) => {
         let card = document.createElement('section');
@@ -40,7 +39,6 @@ const displayBusinesses = (businessDirectory) => {
         let phone = document.createElement('p');
         let website = document.createElement('a')
         let image = document.createElement('img');
-        let level;
 
         name.textContent = `${business.name}`;
 
@@ -56,8 +54,6 @@ const displayBusinesses = (businessDirectory) => {
         image.setAttribute('width', '340');
         image.setAttribute('height', '440');
 
-        level.textContent = `${business.level}`;
-
         card.appendChild(image);
         card.appendChild(name);
         card.appendChild(address);
@@ -65,9 +61,5 @@ const displayBusinesses = (businessDirectory) => {
         card.appendChild(website);
 
         cards.appendChild(card);
-
-        if (level == 'silver' || level == 'gold') {
-            hiCard.appendChild(card);
-        }
     })
 }

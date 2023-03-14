@@ -42,7 +42,7 @@
     }
     #flex {
         display: grid;
-        grid-template-columns: 1fr 2.5fr 1fr;
+        grid-template-columns: 1fr 2.5fr .75fr;
         grid-gap: 20px;
         margin: 0;
         padding: 0;
@@ -53,6 +53,7 @@
     #flex .hero {
         grid-column: 2;
         grid-row: 1/3;
+        max-height: 600px;
     }
     #flex .hero h3 {
         font-size: 33px;
@@ -61,8 +62,9 @@
         display: none;
     }
     .hero img#largehero {
-        display: block;
+        display: flex;
         object-fit: cover;
+        height: 100%;
     }
     #flex .news {
         grid-column: 2;
