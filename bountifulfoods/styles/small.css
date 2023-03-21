@@ -285,14 +285,14 @@ main{
     margin: 0 auto;
     font-size: 13px;
     color:#F68928;
-    border: 1px solid #BDC853;
+    border: 1.5px solid #FEC933;
     border-radius: 8px;
-}
-#weather .weathDay {
-    color:#FEC933;
 }
 #weather .forecast .days p {
     color: #ef7060;
+}
+#weather .forecast .days .weathDay {
+    color: #BDC853;
 }
 .dayTemp {
     font-size: 16px;
