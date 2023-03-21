@@ -1,0 +1,63 @@
+/* 64rem is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+    header {
+        display: grid;
+        grid-template-columns: 150px auto auto;
+    }
+    .logo {
+        width: 120px;
+    }
+    header h1 {
+        font-size: 40px;
+        display: flex;
+        align-self: center;
+        margin-bottom: -10px;
+    }
+    header h2 {
+        font-size: 20px;
+        align-self: center;
+        margin-top: -25px;
+    }
+    nav {
+        text-align: right;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul#primaryNav {
+        display: flex;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.2);
+    }
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.2);
+        padding: .5rem 1rem;
+        font-size: 20px;
+    }
+    .socialMedia {
+        padding-right: 10px;
+    }
+    .socialMedia img {
+        width: 35px;
+    }
+    .products {
+        display: flex;
+        width: 95%;
+        margin-bottom: 0;
+    }
+    .product {
+        width: 100%;
+    }
+    .product-description {
+        display: flex;
+        width: 95%;
+        margin: 32px;
+        margin-top: -10px;
+        color: #e0710f;
+    }
+    .description {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
