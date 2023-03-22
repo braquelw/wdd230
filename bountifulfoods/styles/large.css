@@ -1,5 +1,6 @@
 /* 64rem is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
+    /* <----------Home----------> */
     body {
         max-width: 1600px;
         margin: 0 auto;
@@ -76,10 +77,10 @@
     #area-info {
         margin-top: 20px;
     }
-    #map {
+    .map {
         grid-row: 1/4;
     }
-    #map h4 {
+    .map h4 {
         top: 55%;
         left: 10%;
         font-size: 22px;
@@ -90,4 +91,43 @@
         margin-left: 30px;
         margin-top: -10px;
     }
+    
+
+/* <----------Fresh----------> */
+.historical {
+    padding: 20px 50px;
+}
+#mapaddresses {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#aboutus-map {
+    margin: auto;
+    justify-content: center;
+    grid-row: 1/4;
+}
+.addresses {
+    margin-left: 10px;
+    margin-top: 60px;
+    grid-row: 1/4;
+}
+.addresses p {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+.aboutus-images {
+    display: block;
+    grid-column: 3;
+    margin-top: 20px;
+}
+.aboutus-images img {
+    max-width: 280px;
+    border: 2px solid #F68928;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+
+/* <----------About Us----------> */
 }
