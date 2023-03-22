@@ -94,40 +94,41 @@
     
 
 /* <----------Fresh----------> */
-.historical {
-    padding: 20px 50px;
-}
-#mapaddresses {
-    grid-template-columns: 1fr 1fr 1fr;
-}
-#aboutus-map {
-    margin: auto;
-    justify-content: center;
-    grid-row: 1/4;
-}
-.addresses {
-    margin-left: 10px;
-    margin-top: 60px;
-    grid-row: 1/4;
-}
-.addresses p {
-    margin: 0 auto;
-    padding: 0;
-    font-size: 15px;
-    padding-bottom: 12px;
-}
-.aboutus-images {
-    display: block;
-    grid-column: 3;
-    margin-top: 20px;
-}
-.aboutus-images img {
-    max-width: 280px;
-    border: 2px solid #F68928;
-    border-radius: 10px;
-    margin: 5px;
-}
+
 
 
 /* <----------About Us----------> */
+    .historical {
+        padding: 20px 50px;
+    }
+    #mapaddresses {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #aboutus-map {
+        margin: auto;
+        justify-content: center;
+        grid-row: 1/4;
+    }
+    .addresses {
+        margin-left: 10px;
+        margin-top: 60px;
+        grid-row: 1/4;
+    }
+    .addresses p {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
+    .aboutus-images {
+        display: block;
+        grid-column: 3;
+        margin-top: 20px;
+    }
+    .aboutus-images img {
+        max-width: 280px;
+        border: 2px solid #F68928;
+        border-radius: 10px;
+        margin: 5px;
+    }
 }

@@ -74,26 +74,27 @@
     
 
 /* <----------Fresh----------> */
-.historical {
-    padding: 20px 50px;
-}
-#mapaddresses {
-    grid-template-columns: 1fr 1.2fr;
-}
-#aboutus-map {
-    max-width: 300px;
-}
-.addresses {
-    margin-left: 10px;
-    margin-top: 60px;
-}
-.addresses p {
-    margin: 0 auto;
-    padding: 0;
-    font-size: 15px;
-    padding-bottom: 12px;
-}
+
 
 
 /* <----------About Us----------> */
+    .historical {
+        padding: 20px 50px;
+    }
+    #mapaddresses {
+        grid-template-columns: 1fr 1.2fr;
+    }
+    #aboutus-map {
+        max-width: 300px;
+    }
+    .addresses {
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    .addresses p {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 15px;
+        padding-bottom: 12px;
+    }
 }
