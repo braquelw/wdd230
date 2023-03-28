@@ -4,7 +4,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-
 /* <----------Home----------> */
 * {
     font-family: Nunito, 'Times New Roman', sans-serif;
@@ -131,6 +130,7 @@ main{
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-bottom: -5px;
 }
 .products {
     margin: 32px;
@@ -341,11 +341,33 @@ footer #openweather a:hover {
 
 
 /* <----------Fresh----------> */
+#fresh-header {
+    color:#CF412E;
+    font-size: 22px;
+    margin: 15px;
+    margin-bottom: -20px;
+    padding: 5px;
+}
+#product-options {
+    margin: 20px;
+    margin-bottom: 50px;
+}
+.optionimg {
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px;
+}
+.options h4 {
+    margin: -10px auto;
+}
+.options p {
+    color:#F68928;
+}
 form {
     margin: 30px;
 }
 form h3 {
-    color:#F68928;
+    color:#899425;
     margin-bottom: -20px;
 }
 form fieldset {
@@ -369,16 +391,32 @@ form label.top {
 form label.top input, form label.top select, form label.top textarea {
     display: block;
     font-size: 1rem;
-    border: solid 1.5px #FEC933;
+    border: solid 1.5px #F68928;
     border-radius: 10px;
     padding: .75rem;
-    color: #cf412e;
+    color: #CF412E;
     width: 100%;
     max-width: 20rem;
-    background-color: #fdf9e8;
+    background-color: #fdfaec;
 }
 form select {
     margin-top: 5px;
+}
+form #radio-buttons {
+    padding: 20px 0;
+    margin-bottom: -10px;
+    color:#F68928;
+    display: block;
+}
+form input[type="radio"] {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+    accent-color: #899425;
+}
+form .radioBtn {
+    height: 25px;
 }
 form #submitBtn {
     border: none;
@@ -389,9 +427,13 @@ form #submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    font-size: 18px;
 }
 form #submitBtn:hover {
     background-color: #899425;
+}
+form label.top input:required {
+    border-left: #FEC933 solid 3px;
 }
 form textarea {
     writing-mode: horizontal-tb !important;
@@ -410,6 +452,9 @@ form textarea {
 }
 #drinksCreated {
     margin-bottom: 50px;
+}
+.order-message {
+    color:#899425;
 }
 
 

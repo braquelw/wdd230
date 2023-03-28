@@ -33,33 +33,64 @@
     </header>
     <main>
         <img class="main-img" src="images/placeholder.png" data-src="images/juicebanner.png" alt="Juice Banner" loading="lazy">
-        <form name="drinkForm">
-            <h3>Create Your Own Fruit Drink</h3>
-            <fieldset>
-                <legend>Personal Information</legend>
-                <label class="top">Name* <input type="text" id="name" required/></label>
-                <label class="top">Email* <input type="email" id="email" placeholder="someone@gmail.com"/></label>
-                <label class="top">Phone* <input type="tel" id="phone" placeholder="1235551234"/></label>
-            </fieldset>
-            <fieldset>
-                <legend>Build Your Drink</legend>
-                <label class="top">Fruit Options* (choose up to 3)
-                    <select class="option1" id="fruit1">
-                        <option value="">Please Select</option>
-                    </select>
-                    <select class="option2" id="fruit2">
-                        <option value="">Please Select</option>
-                    </select>
-                    <select class="option3" id="fruit3">
-                        <option value="">Please Select</option>
-                    </select>
-                </label>
-                <label class="top">Special Instructions <textarea name="instructions" id="instructions" rows="4"></textarea></label>
-            </fieldset>
-            <button type="submit" id="submitBtn" onclick="getNutriInfo(); return false">Create Drink</button>
-        </form>
-        <p id="formOutput1"></p>
-        <p id="drinksCreated"><span id="totalDrinks" class="label"></span><span id="numDrinks"></span></p>
+        <h3 id="fresh-header">Fresh, Locally Grown Produce and Fruit Drinks</h3>
+        <div class="fresh-grid">
+            <div id="product-options">
+                <div class="options">
+                    <img class="optionimg" src="images/freshproduce.png" alt="Produce Baskets">
+                    <h4>Fresh Produce</h4>
+                    <p>We provide only the best quality fruits and vegetables from local farmers so you can easily implement fresh food options into your daily diet and routine.</p>
+                </div>
+                <div class="options">
+                    <img class="optionimg" src="images/baskets.png" alt="Produce Baskets">
+                    <h4>Produce Baskets</h4>
+                    <p>Our baskets are made with a large assortment of fresh, in-season fruits and vegetables at a discounted price so you can enjoy healthy choices for less.</p>
+                </div>
+                <div class="options">
+                    <img class="optionimg" src="images/fruitjuice.png" alt="Produce Baskets">
+                    <h4>Fruit Drinks</h4>
+                    <p>Try one of our homemade fruit juices, or fruit infused water to get essential nutrients in a fun and easy way. Try one of our favorite combos, or create your own!</p>
+                </div>
+            </div>
+            <div class="fresh-form">
+                <form name="drinkForm" onsubmit="getNutriInfo(); return false" autocomplete="off">
+                    <h3>Create Your Own Fruit Drink</h3>
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label class="top">Name* <input type="text" id="name" required/></label>
+                        <label class="top">Email* <input type="email" id="email" placeholder="someone@gmail.com" required/></label>
+                        <label class="top">Phone* <input type="tel" id="phone" placeholder="1235551234" required/></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Build Your Drink</legend>
+                        <label class="top">Fruit Options* (choose up to 3)
+                            <select class="option1" id="fruit1" required>
+                                <option value="">Please Select</option>
+                            </select>
+                            <select class="option2" id="fruit2">
+                                <option value="">Please Select</option>
+                            </select>
+                            <select class="option3" id="fruit3">
+                                <option value="">Please Select</option>
+                            </select>
+                        </label>
+                        <div id="radio-buttons">
+                            <div class="radioBtn">
+                                <input name="radio" type="radio" value="Blended Fruit Juice" id="juice" checked><label for="juice">Blended Fruit Juice</label>
+                            </div>
+                            <div class="radioBtn">
+                                <input name="radio" type="radio" value="Fruit Infused Water" id="infused"><label for="infused">Fruit Infused Water</label>
+                            </div>
+                        </div>
+                        <label class="top">Special Instructions <textarea name="instructions" id="instructions" rows="4"></textarea></label>
+                    </fieldset>
+                    <button type="submit" id="submitBtn">Create Drink</button>
+                </form>
+                <p id="formOutput1"></p>
+                <p id="drinksCreated"><span id="totalDrinks" class="label"></span><span id="numDrinks"></span></p>
+            </div>
+        </div>
+        <p class="order-message">To order, call (760) 232-0000 or visit us at one of our various locations in southern CA!</p>
         <img class="main-img" src="images/placeholder.png" data-src="images/fruitcupbanner.png" alt="Juice Banner" loading="lazy">
     </main>
     <footer>

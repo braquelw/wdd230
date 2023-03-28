@@ -72,10 +72,10 @@
         padding: 0 20px;
     }
     .location {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 320px 1fr;
     }
     #area-info {
-        margin-top: 20px;
+        margin: 30px 70px;
     }
     .map {
         grid-row: 1/4;
@@ -83,7 +83,7 @@
     .map h4 {
         top: 55%;
         left: 10%;
-        font-size: 22px;
+        font-size: 23px;
     }
     #contact-info {
         grid-column: 2;
@@ -94,7 +94,19 @@
     
 
 /* <----------Fresh----------> */
-
+.fresh-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.fresh-form {
+    margin-top: 80px;
+}
+form h3 {
+    font-size: 20px;
+}
+.order-message {
+    font-size: 18px;
+}
 
 
 /* <----------About Us----------> */

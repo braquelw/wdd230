@@ -109,10 +109,19 @@ function displayDrinkCreation() {
     let fruit1 = document.getElementById('fruit1').value;
     let fruit2 = document.getElementById('fruit2').value;
     let fruit3 = document.getElementById('fruit3').value;
+    let drinkType = document.getElementsByName('radio');
+    let typeOfDrink = '';
+    // Get Todays Date
     let date = new Date();
     let currentDate = `${date.getMonth() + 1} | ${date.getDate()} | ${date.getFullYear()}`;
+    // Get Selected Radio Button
+    for(i = 0; i < drinkType.length; i++) {
+        if(drinkType[i].checked) {
+            typeOfDrink = drinkType[i].value;
+        }
+    }
 
-    document.getElementById('formOutput1').innerHTML = currentDate + '<br><br><strong>Creator Information</strong><br>Name: ' + document.getElementById("name").value + '<br>Email: ' + document.getElementById("email").value + '<br>Phone: ' + document.getElementById("phone").value + '<br><br><strong>Drink Information</strong><br>Fruit:  ' + fruit1 + "  " + fruit2 + "  " + fruit3 + '<br>Special Instructions: ' + document.getElementById("instructions").value + '<br><br>' + nutriFacts;
+    document.getElementById('formOutput1').innerHTML = currentDate + '<br><br><strong>Creator Information</strong><br>Name: ' + document.getElementById("name").value + '<br>Email: ' + document.getElementById("email").value + '<br>Phone: ' + document.getElementById("phone").value + '<br><br><strong>Drink Information</strong><br>Fruit(s):  ' + fruit1 + " " + fruit2 + " " + fruit3 + '<br>Drink Type: ' + typeOfDrink + '<br>Special Instructions: ' + document.getElementById("instructions").value + '<br><br>' + nutriFacts;
     document.getElementById('totalDrinks').innerHTML = 'Total Drinks Created: ';
 }
 
