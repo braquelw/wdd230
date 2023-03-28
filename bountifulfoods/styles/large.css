@@ -94,9 +94,13 @@
     
 
 /* <----------Fresh----------> */
+#fresh-header {
+    margin: 40px auto;
+}
 .fresh-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: -60px;
 }
 .fresh-form {
     margin-top: 80px;
