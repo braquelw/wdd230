@@ -341,7 +341,76 @@ footer #openweather a:hover {
 
 
 /* <----------Fresh----------> */
-
+form {
+    margin: 30px;
+}
+form h3 {
+    color:#F68928;
+    margin-bottom: -20px;
+}
+form fieldset {
+    text-align: left;
+    margin: 2rem 0;
+    border: 1px solid #FEC933;
+    border-radius: 10px;
+    padding: 1rem 3%;
+}
+form legend {
+    color: #BDC853;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top {
+    display: block;
+    padding-top: 8px;
+    color: #F68928;
+    font-size: .8rem;
+}
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    font-size: 1rem;
+    border: solid 1.5px #FEC933;
+    border-radius: 10px;
+    padding: .75rem;
+    color: #cf412e;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #fdf9e8;
+}
+form select {
+    margin-top: 5px;
+}
+form #submitBtn {
+    border: none;
+    background-color: #BDC853;
+    color: white;
+    border-radius: 10px;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form #submitBtn:hover {
+    background-color: #899425;
+}
+form textarea {
+    writing-mode: horizontal-tb !important;
+    letter-spacing: normal;
+    word-spacing: normal;
+    display: inline-block;
+    text-align: start;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+#formOutput1, #drinksCreated {
+    color:#CF412E;
+}
+#formOutput1 {
+    margin-top: -15px;
+}
+#drinksCreated {
+    margin-bottom: 50px;
+}
 
 
 /* <----------About Us----------> */

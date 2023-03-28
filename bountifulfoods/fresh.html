@@ -33,6 +33,33 @@
     </header>
     <main>
         <img class="main-img" src="images/placeholder.png" data-src="images/juicebanner.png" alt="Juice Banner" loading="lazy">
+        <form name="drinkForm">
+            <h3>Create Your Own Fruit Drink</h3>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">Name* <input type="text" id="name" required/></label>
+                <label class="top">Email* <input type="email" id="email" placeholder="someone@gmail.com"/></label>
+                <label class="top">Phone* <input type="tel" id="phone" placeholder="1235551234"/></label>
+            </fieldset>
+            <fieldset>
+                <legend>Build Your Drink</legend>
+                <label class="top">Fruit Options* (choose up to 3)
+                    <select class="option1" id="fruit1">
+                        <option value="">Please Select</option>
+                    </select>
+                    <select class="option2" id="fruit2">
+                        <option value="">Please Select</option>
+                    </select>
+                    <select class="option3" id="fruit3">
+                        <option value="">Please Select</option>
+                    </select>
+                </label>
+                <label class="top">Special Instructions <textarea name="instructions" id="instructions" rows="4"></textarea></label>
+            </fieldset>
+            <button type="submit" id="submitBtn" onclick="getNutriInfo(); return false">Create Drink</button>
+        </form>
+        <p id="formOutput1"></p>
+        <p id="drinksCreated"><span id="totalDrinks" class="label"></span><span id="numDrinks"></span></p>
         <img class="main-img" src="images/placeholder.png" data-src="images/fruitcupbanner.png" alt="Juice Banner" loading="lazy">
     </main>
     <footer>
@@ -50,5 +77,6 @@
     </footer>
     <script src="scripts/script.js"></script>
     <script src="scripts/lazyload.js"></script>
+    <script src="scripts/form.js"></script>
 </body>
 </html>
